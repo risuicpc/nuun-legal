@@ -1,20 +1,20 @@
-# Legal Documents - [Your App Name]
+# Legal Documents - Nuun
 
-This repository contains the legal documents and account deletion instructions for [Your App Name] mobile application.
+This repository contains the legal documents and account deletion instructions for Nuun mobile application.
 
 ## Documents
 
-- [Privacy Policy](https://yourusername.github.io/app-privacy-policy/)
-- [Terms of Service](https://yourusername.github.io/app-privacy-policy/terms-of-service.html)
-- [Account Deletion Instructions](https://yourusername.github.io/app-privacy-policy/account-deletion.html)
+- [Privacy Policy](https://risuicpc.github.io/nuun-legal/)
+- [Terms of Service](https://risuicpc.github.io/nuun-legal/terms-of-service.html)
+- [Account Deletion Instructions](https://risuicpc.github.io/nuun-legal/account-deletion.html)
 
 ## For Google Play Store
 
 Use these URLs for your Google Play Store listing:
 
-- **Privacy Policy URL:** `https://yourusername.github.io/app-privacy-policy/`
-- **Terms of Service URL:** `https://yourusername.github.io/app-privacy-policy/terms-of-service.html`
-- **Account Deletion URL:** `https://yourusername.github.io/app-privacy-policy/account-deletion.html`
+- **Privacy Policy URL:** `https://risuicpc.github.io/nuun-legal/`
+- **Terms of Service URL:** `https://risuicpc.github.io/nuun-legal/terms-of-service.html`
+- **Account Deletion URL:** `https://risuicpc.github.io/nuun-legal/account-deletion.html`
 
 ## Updates
 
