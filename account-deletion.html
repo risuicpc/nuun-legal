@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account Deletion - [Your App Name]</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #f8f9fa;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        .header h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .app-name {
+            color: #2c7575;
+            font-weight: 600;
+        }
+
+        .last-updated {
+            color: #6c757d;
+            font-size: 0.9em;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            color: #2c7575;
+            margin-bottom: 15px;
+            font-size: 1.4em;
+            border-left: 4px solid #2c7575;
+            padding-left: 15px;
+        }
+
+        .section-text {
+            color: #495057;
+            margin-bottom: 15px;
+            font-size: 1.1em;
+        }
+
+        .step {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border-left: 4px solid #2c7575;
+        }
+
+        .step-number {
+            background: #2c7575;
+            color: white;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .step-title {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        .warning-box {
+            background: #fff3cd;
+            border: 1px solid #ffc107;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 25px 0;
+        }
+
+        .warning-title {
+            color: #856404;
+            font-weight: 700;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .data-list {
+            background: #e8f4f4;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 25px 0;
+        }
+
+        .data-category {
+            margin-bottom: 20px;
+        }
+
+        .data-title {
+            font-weight: 600;
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+
+        ul {
+            padding-left: 25px;
+            margin: 15px 0;
+        }
+
+        li {
+            margin-bottom: 8px;
+            color: #495057;
+        }
+
+        .contact-info {
+            background: #e8f4f4;
+            padding: 25px;
+            border-radius: 8px;
+            margin: 30px 0;
+            border-left: 4px solid #2c7575;
+        }
+
+        .app-screenshot {
+            text-align: center;
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+
+        .screenshot-placeholder {
+            background: #dee2e6;
+            height: 200px;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #6c757d;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 20px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-top: 20px;
+            color: #2c7575;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Account Deletion Instructions</h1>
+            <p>For <span class="app-name">[Your App Name]</span> - Business Management Application</p>
+        </div>
+
+        <div class="last-updated">
+            <strong>Last Updated:</strong> December 2024
+        </div>
+
+        <div class="section">
+            <p class="section-text">
+                This page explains how to permanently delete your account and all associated data from 
+                <span class="app-name">[Your App Name]</span>. Account deletion is immediate and irreversible.
+            </p>
+        </div>
+
+        <div class="warning-box">
+            <div class="warning-title">
+                ⚠️ Important Warning
+            </div>
+            <p class="section-text">
+                <strong>Account deletion is permanent and cannot be undone.</strong> Once you delete your account, 
+                all your data will be immediately and permanently removed from our systems. You will not be able 
+                to recover any information.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">How to Delete Your Account</h2>
+            
+            <div class="step">
+                <div class="step-title">
+                    <span class="step-number">1</span> Open the App and Go to Profile
+                </div>
+                <p class="section-text">
+                    Launch <span class="app-name">[Your App Name]</span> and log in to your account. 
+                    Tap on the <strong>Profile</strong> tab at the bottom right corner of the screen.
+                </p>
+            </div>
+
+            <div class="step">
+                <div class="step-title">
+                    <span class="step-number">2</span> Navigate to Account Settings
+                </div>
+                <p class="section-text">
+                    In the Profile section, scroll down to find the <strong>"Delete Account"</strong> option 
+                    under the Account settings. Tap on it to proceed.
+                </p>
+            </div>
+
+            <div class="step">
+                <div class="step-title">
+                    <span class="step-number">3</span> Read the Warning Screen
+                </div>
+                <p class="section-text">
+                    You will see a detailed warning explaining what data will be deleted. Read this carefully. 
+                    Tap <strong>"I Understand, Continue"</strong> to proceed to the confirmation screen.
+                </p>
+            </div>
+
+            <div class="step">
+                <div class="step-title">
+                    <span class="step-number">4</span> Confirm Your Identity
+                </div>
+                <p class="section-text">
+                    On the confirmation screen, you will need to:
+                </p>
+                <ul>
+                    <li>Type <strong>"DELETE MY ACCOUNT"</strong> exactly as shown</li>
+                    <li>Enter your current password for verification</li>
+                </ul>
+            </div>
+
+            <div class="step">
+                <div class="step-title">
+                    <span class="step-number">5</span> Final Confirmation
+                </div>
+                <p class="section-text">
+                    Tap <strong>"Permanently Delete Account"</strong>. A final confirmation alert will appear. 
+                    Tap <strong>"Yes, Delete Everything"</strong> to immediately and permanently delete your account.
+                </p>
+            </div>
+
+            <div class="step">
+                <div class="step-title">
+                    <span class="step-number">6</span> Automatic Logout
+                </div>
+                <p class="section-text">
+                    After successful deletion, you will be automatically logged out and redirected to the login screen. 
+                    Your account and all data have been permanently removed.
+                </p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Data That Will Be Deleted</h2>
+            <p class="section-text">
+                When you delete your account, the following data is <strong>immediately and permanently deleted</strong>:
+            </p>
+            
+            <div class="data-list">
+                <div class="data-category">
+                    <div class="data-title">Personal Information</div>
+                    <ul>
+                        <li>Your profile information (name, email, profile picture)</li>
+                        <li>Account credentials and login information</li>
+                        <li>User preferences and settings</li>
+                    </ul>
+                </div>
+
+                <div class="data-category">
+                    <div class="data-title">Business Data</div>
+                    <ul>
+                        <li>All businesses you own (including business names, types, descriptions)</li>
+                        <li>Business team members and their roles</li>
+                        <li>All business-related activities and transactions</li>
+                    </ul>
+                </div>
+
+                <div class="data-category">
+                    <div class="data-title">App Data</div>
+                    <ul>
+                        <li>Your activity history within the app</li>
+                        <li>Any stored preferences or customizations</li>
+                        <li>Analytics data associated with your account</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Data Retention Period</h2>
+            <p class="section-text">
+                <strong>Immediate Deletion:</strong> All your personal data and business information are 
+                <strong>immediately and permanently deleted</strong> when you confirm account deletion. 
+                There is no retention period for user-requested deletions.
+            </p>
+            <p class="section-text">
+                <strong>Backup Data:</strong> Some data may remain in our encrypted backups for up to 
+                <strong>30 days</strong> as part of our disaster recovery procedures. These backups are 
+                automatically purged and your data cannot be recovered from them after this period.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">What Happens to Your Businesses</h2>
+            <p class="section-text">
+                If you are the <strong>owner</strong> of any businesses:
+            </p>
+            <ul>
+                <li>All businesses you own will be <strong>permanently deleted</strong></li>
+                <li>All team members will lose access to these businesses</li>
+                <li>All business data will be immediately removed</li>
+            </ul>
+            <p class="section-text">
+                If you are a <strong>team member</strong> in other businesses:
+            </p>
+            <ul>
+                <li>You will be removed from all businesses where you are a team member</li>
+                <li>The businesses themselves will continue to operate normally</li>
+                <li>Business owners will be notified of your removal</li>
+            </ul>
+        </div>
+
+        <div class="warning-box">
+            <div class="warning-title">
+                🔒 Data Security Note
+            </div>
+            <p class="section-text">
+                We take your privacy seriously. When you delete your account, we use secure data erasure 
+                methods to ensure your information cannot be recovered. Our deletion process complies with 
+                data protection regulations including GDPR and CCPA.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2 class="section-title">Need Help?</h2>
+            <div class="contact-info">
+                <p class="section-text">
+                    If you encounter any issues during the account deletion process or have questions, 
+                    please contact our support team:
+                </p>
+                <p><strong>Email:</strong> support@yourapp.com</p>
+                <p><strong>Response Time:</strong> Within 24 hours</p>
+                <p><strong>Note:</strong> For security reasons, account deletion requests must be processed 
+                through the app. We cannot delete accounts via email.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <p class="section-text">
+                <strong>Alternative Method:</strong> If you are unable to access the app, you can 
+                <a href="mailto:support@yourapp.com?subject=Account%20Deletion%20Request&body=Please%20delete%20my%20account%20and%20all%20associated%20data.">email us</a> 
+                with your account email address and we will guide you through the process.
+            </p>
+        </div>
+
+        <a href="https://github.com/yourusername/app-privacy-policy" class="back-link">
+            ← Back to Privacy Policy
+        </a>
+    </div>
+</body>
+</html>
